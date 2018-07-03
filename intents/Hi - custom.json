@@ -1,0 +1,126 @@
+{
+  "id": "c20d8acc-b2c6-4be0-aaf6-c8c1056c3a9e",
+  "parentId": "f39c5f5b-d1a7-41e5-b2d8-bbc6a35d7b97",
+  "rootParentId": "f39c5f5b-d1a7-41e5-b2d8-bbc6a35d7b97",
+  "name": "Hi - custom",
+  "auto": true,
+  "contexts": [
+    "Hi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hi.Hi-custom",
+      "affectedContexts": [
+        {
+          "name": "Hi-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Airport",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/American_Airlines_Boeing_777-300ER_%28N732AN%29_at_Miami_International_Airport.jpg",
+          "buttons": [
+            {
+              "text": "Route from Airport",
+              "postback": "https://www.google.com/maps/dir/Terminal+3,+Indira+Gandhi+International+Airport,+New+Delhi,+Delhi+110037/BML+MUNJAL+UNIVERSITY,+Gurgaon,+Haryana/@28.3943382,76.7956123,11z/data\u003d!3m1!4b1!4m14!4m13!1m5!1m1!1s0x390d1b9993a248df:0x28f954cbf617fd67!2m2!1d77.0844015!2d28.5550838!1m5!1m1!1s0x390d478e1d59b7fb:0xb1787ccb5563c223!2m2!1d76.8145901!2d28.2472264!3e0"
+            },
+            {
+              "text": "Sources from Airport"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Railway Station",
+          "imageUrl": "http://www.thehindu.com/migration_catalog/article10506248.ece/alternates/FREE_660/31bgd%20train%20HAGTSHI-W002_G154HJR8S.1+31BGD_HASSAN_1.jpg",
+          "buttons": [
+            {
+              "text": "Route from Railway station",
+              "postback": "https://www.google.com/maps/dir/Nizamuddin+Railway+Station,+Nizamuddin,+Jaipur+Estata,+Nizamuddin+East,+New+Delhi,+Delhi/BML+MUNJAL+UNIVERSITY,+Gurgaon,+Haryana/@28.42135,76.9128371,11z/data\u003d!3m1!4b1!4m14!4m13!1m5!1m1!1s0x390ce30f4d1b1a6f:0xb8b9cd2dd7da87e5!2m2!1d77.252877!2d28.586725!1m5!1m1!1s0x390d478e1d59b7fb:0xb1787ccb5563c223!2m2!1d76.8145901!2d28.2472264!3e0"
+            },
+            {
+              "text": "Sources from Station"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Hotels",
+          "subtitle": "",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRZOFggsW-256yhRvdm3fnWQKeD0Ne2UujX8VY-xE55igRRa7vw",
+          "buttons": [
+            {
+              "text": "Near by Airport",
+              "postback": "https://www.google.com/maps/place/Hotel+Vishal+Residency/@28.5328717,77.0853959,14.48z/data\u003d!4m24!1m16!4m15!1m6!1m2!1s0x390d1b9993a248df:0x28f954cbf617fd67!2sTerminal+3,+Indira+Gandhi+International+Airport,+New+Delhi,+Delhi!2m2!1d77.0844015!2d28.5550838!1m6!1m2!1s0x390d478e1d59b7fb:0xb1787ccb5563c223!2sBML+MUNJAL+UNIVERSITY,+Gurgaon,+Haryana!2m2!1d76.8145901!2d28.2472264!3e0!3m6!1s0x0:0x8cbcbe3054243ad7!5m1!1s2018-06-08!8m2!3d28.542693!4d77.1188682"
+            },
+            {
+              "text": "Near by railway station",
+              "postback": "https://www.google.com/maps/place/Park+Inn,+Gurgaon/@28.4585682,77.029903,17z/data\u003d!3m1!4b1!4m7!3m6!1s0x390d18370ebb6359:0x9aa67946e7ae2cc4!5m1!1s2018-06-08!8m2!3d28.4585635!4d77.0320917"
+            },
+            {
+              "text": "Near by Campus",
+              "postback": "https://www.google.com/maps/place/Fortune+Park+Orange/@28.2472311,76.8124014,17z/data\u003d!4m14!1m6!3m5!1s0x390d478e1d59b7fb:0xb1787ccb5563c223!2sBML+MUNJAL+UNIVERSITY!8m2!3d28.2472264!4d76.8145901!3m6!1s0x390d478f000e3cbb:0x425cd921c5fddbe3!5m1!1s2018-06-25!8m2!3d28.2493618!4d76.816301"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Restaurants",
+          "subtitle": "",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTXTdqExa7O1alOGunY87_5zqHYicM19bnX0s4jFIo-D0JuOHbC",
+          "buttons": [
+            {
+              "text": "On my Route from Airport",
+              "postback": "Andhra Pradesh Bhavan, Hyderabad House, New Delhi, Delhi"
+            },
+            {
+              "text": "On my route from station",
+              "postback": "https://www.google.com/maps/place/Hotel+Vishal+Residency/@28.5328717,77.0853959,14.48z/data\u003d!4m24!1m16!4m15!1m6!1m2!1s0x390d1b9993a248df:0x28f954cbf617fd67!2sTerminal+3,+Indira+Gandhi+International+Airport,+New+Delhi,+Delhi!2m2!1d77.0844015!2d28.5550838!1m6!1m2!1s0x390d478e1d59b7fb:0xb1787ccb5563c223!2sBML+MUNJAL+UNIVERSITY,+Gurgaon,+Haryana!2m2!1d76.8145901!2d28.2472264!3e0!3m6!1s0x0:0x8cbcbe3054243ad7!5m1!1s2018-06-08!8m2!3d28.542693!4d77.1188682"
+            },
+            {
+              "text": "Near by campus",
+              "postback": "https://www.google.com/maps/place/Fortune+Park+Orange/@28.2472311,76.8124014,17z/data\u003d!4m14!1m6!3m5!1s0x390d478e1d59b7fb:0xb1787ccb5563c223!2sBML+MUNJAL+UNIVERSITY!8m2!3d28.2472264!4d76.8145901!3m6!1s0x390d478f000e3cbb:0x425cd921c5fddbe3!5m1!1s2018-06-25!8m2!3d28.2493618!4d76.816301"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530249682,
+  "fallbackIntent": false,
+  "events": []
+}

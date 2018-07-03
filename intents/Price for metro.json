@@ -1,0 +1,56 @@
+{
+  "id": "0de0ec4b-d574-4600-af47-72d93f26a7cf",
+  "parentId": "81c2cbc6-b5d1-40e1-86b7-6ed127ae3562",
+  "rootParentId": "f39c5f5b-d1a7-41e5-b2d8-bbc6a35d7b97",
+  "name": "Price for metro",
+  "auto": true,
+  "contexts": [
+    "Sourcesfromstation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hi.Hi-custom.Hi-custom-custom.Sourcesfromstation-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Price :- 60-80 /person"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Thanq😊"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528447122,
+  "fallbackIntent": false,
+  "events": []
+}

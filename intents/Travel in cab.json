@@ -1,0 +1,47 @@
+{
+  "id": "6b4399ce-2b56-48ce-a57a-d71a648e469f",
+  "parentId": "81c2cbc6-b5d1-40e1-86b7-6ed127ae3562",
+  "rootParentId": "f39c5f5b-d1a7-41e5-b2d8-bbc6a35d7b97",
+  "name": "Travel in cab",
+  "auto": true,
+  "contexts": [
+    "Sourcesfromstation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hi.Hi-custom.Hi-custom-custom.Sourcesfromstation-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Move forward to exit through gate 2,  Book a cab in your favourite cab booking app to BML Munjal University."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Thanq, Have a safe journey😊"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1528433548,
+  "fallbackIntent": false,
+  "events": []
+}

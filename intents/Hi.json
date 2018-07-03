@@ -1,0 +1,129 @@
+{
+  "id": "f39c5f5b-d1a7-41e5-b2d8-bbc6a35d7b97",
+  "name": "Hi",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Hi-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "welcome to BMU"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "About",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSu91RtQEn17Q1VVSTWGM6Y8iuuN1rBxFIORlz4MaXnD_0qXEBvvw",
+          "buttons": [
+            {
+              "text": "Click here",
+              "postback": "https://www.bml.edu.in/university/overview/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Faculty",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQ9SXQq_HForSZ_6mwG7WFeVpgAQiBzVFlvkT3Ck2z3fl805Ktsig",
+          "buttons": [
+            {
+              "text": "Click here",
+              "postback": "https://www.bml.edu.in/academics/faculty/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Curriculum",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQt9RbuVP50P7mEcXTRmis8znu7N02gnc6buoUoB_gcWh_WWIpikA",
+          "buttons": [
+            {
+              "text": "Click here",
+              "postback": "https://www.bml.edu.in/academics/curriculum/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Schools",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTbclqUNtrY1bi5dH5GDkBB4ShZpT2UZwtfUt_Agp7NuUkywTu8",
+          "buttons": [
+            {
+              "text": "Click here",
+              "postback": "https://www.bml.edu.in/academics/schools/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Pedagogy",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSDf9ZPjW-3tGrnuivkfnTLKMTODR4MQnCzzW3jA2LR_u92h58q",
+          "buttons": [
+            {
+              "text": "Click here",
+              "postback": "https://www.bml.edu.in/academics/pedagogy/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Travel help",
+          "subtitle": "Routes, Restaurants,Hotels,",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRLHtgFhJS7LaQEEJFAjj1I7QsKI7sW2BFgYByZau7pKIXRyCzv",
+          "buttons": [
+            {
+              "text": "help ?"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530249868,
+  "fallbackIntent": false,
+  "events": []
+}

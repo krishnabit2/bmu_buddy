@@ -1,0 +1,33 @@
+{
+  "id": "c7e39025-dd77-4bed-bdda-da07a778955a",
+  "parentId": "c20d8acc-b2c6-4be0-aaf6-c8c1056c3a9e",
+  "rootParentId": "f39c5f5b-d1a7-41e5-b2d8-bbc6a35d7b97",
+  "name": "Hi - custom - custom",
+  "auto": true,
+  "contexts": [
+    "Hi-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hi.Hi-custom.Hi-custom-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

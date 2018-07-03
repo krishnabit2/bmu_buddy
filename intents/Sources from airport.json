@@ -1,0 +1,44 @@
+{
+  "id": "676a8f51-d321-41c0-874d-5a4c76f7fe4a",
+  "parentId": "c20d8acc-b2c6-4be0-aaf6-c8c1056c3a9e",
+  "rootParentId": "f39c5f5b-d1a7-41e5-b2d8-bbc6a35d7b97",
+  "name": "Sources from airport",
+  "auto": true,
+  "contexts": [
+    "Hi-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hi.Hi-custom.Hi-custom-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530249712,
+  "fallbackIntent": false,
+  "events": []
+}

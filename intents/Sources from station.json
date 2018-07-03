@@ -1,0 +1,100 @@
+{
+  "id": "81c2cbc6-b5d1-40e1-86b7-6ed127ae3562",
+  "parentId": "c20d8acc-b2c6-4be0-aaf6-c8c1056c3a9e",
+  "rootParentId": "f39c5f5b-d1a7-41e5-b2d8-bbc6a35d7b97",
+  "name": "Sources from station",
+  "auto": true,
+  "contexts": [
+    "Hi-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hi.Hi-custom.Hi-custom-custom",
+      "affectedContexts": [
+        {
+          "name": "Sourcesfromstation-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Cabs",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRvanityPnTsOFX0-iJ8F6ODpJGMtCFJFsWMbO5FXmLsKKxNYyl",
+          "buttons": [
+            {
+              "text": "Price for cab",
+              "postback": ""
+            },
+            {
+              "text": "Travel in Cab",
+              "postback": ""
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Bus",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Metrobus_bus_Y362_HMY_%282%29.jpg",
+          "buttons": [
+            {
+              "text": "Bus Ticket price",
+              "postback": ""
+            },
+            {
+              "text": "Travel in Bus"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Metro Station",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTAuJN_sJabLXXolBefmJ2cuBOd-IYmqiYovfpfjSEX9Jp2Xs8s",
+          "buttons": [
+            {
+              "text": "Metro Ticket Price",
+              "postback": ""
+            },
+            {
+              "text": "Travel in metro",
+              "postback": ""
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "",
+          "replies": [
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1529315967,
+  "fallbackIntent": false,
+  "events": []
+}

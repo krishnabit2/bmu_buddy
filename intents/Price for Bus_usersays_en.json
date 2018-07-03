@@ -1,0 +1,26 @@
+[
+  {
+    "id": "25db396d-077b-4a44-947d-8b5b9c2ee2bc",
+    "data": [
+      {
+        "text": "Travel in Bus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528434059
+  },
+  {
+    "id": "bdfd4fd1-76d7-4532-94ab-bb80e2ff37f7",
+    "data": [
+      {
+        "text": "Price for Bus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1528433737
+  }
+]
